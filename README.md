@@ -2,10 +2,17 @@
 
 OpenSUSI TR-1um向けCMOSインバータと、Metal2で描いたペンギンのシリコンアートです。
 
+## Full GDS layout
+
+![Full GDS layout showing the inverter and Metal2 penguin artwork](inverter.png)
+
+The image shows the complete `inverter` top cell. The CMOS inverter is in the upper-left corner, and the penguin and `EINOSUKE` text are drawn on Metal2.
+
 ## Files
 
 - `inverter.sch` — Xschem schematic
 - `inverter.gds` — Layout and Metal2 artwork
+- `inverter.png` — Full GDS layout image
 
 ## Layout
 
