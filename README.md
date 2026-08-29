@@ -6,7 +6,7 @@ OpenSUSI TR-1um向けCMOSインバータと、Metal2で描いたペンギンの�
 
 ![Full GDS layout showing the inverter and Metal2 penguin artwork](inverter.png)
 
-The image shows the complete `inverter` top cell. The CMOS inverter is in the upper-left corner, and the penguin and `EINOSUKE` text are drawn on Metal2.
+The image shows the complete `inverter` top cell. It was rendered directly by KLayout 0.30.9 with the TR-1um layer-properties file, including the native layer patterns, grid, and scale bar. The CMOS inverter is in the upper-left corner, and the penguin and `EINOSUKE` text are drawn on Metal2.
 
 ## Files
 
