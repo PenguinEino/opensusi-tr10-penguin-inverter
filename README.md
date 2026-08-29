@@ -1,12 +1,14 @@
-# OpenSUSI TR-1um Penguin Inverter
+# OpenSUSI TR-1um Inverter
 
-OpenSUSI TR-1um向けCMOSインバータと、Metal2で描いたペンギンのシリコンアートです。
+ISHI会 による 2026/08/29（土） 実施のハンズオン：初めての半導体設計・製造体験！一日で作るインバータ回路ハンズオン：北陸編 で製作した成果物
+
+[一般社団法人RISE-A](https://www.rise-a.jp/) 様のスポンサードにより東海理化さんのシャトルで製造予定！
 
 ## Full GDS layout
 
-![Full GDS layout showing the inverter and Metal2 penguin artwork](inverter.png)
+![Full GDS layout](inverter.png)
 
-The image shows the complete `inverter` top cell. It was rendered directly by KLayout 0.30.9 with the TR-1um layer-properties file, including the native layer patterns, grid, and scale bar. The CMOS inverter is in the upper-left corner, and the penguin and `EINOSUKE` text are drawn on Metal2.
+GDS の全体画像。1人あたりの割り当てが 200um x 200um で、インバータだけだと余白が多く余ったのでお絵描きしました。次は余白ができないサイズのものを作りたい
 
 ## Files
 
@@ -14,16 +16,13 @@ The image shows the complete `inverter` top cell. It was rendered directly by KL
 - `inverter.gds` — Layout and Metal2 artwork
 - `inverter.png` — Full GDS layout image
 
-## Layout
-
-- Top cell: `inverter`
-- Artwork layer: Metal2 (`20/0`)
-- Metal2 artwork uses horizontal and vertical polygon edges only
-- Includes the text `EINOSUKE`
-
 ## Verification
 
 - TR-1um DRC: 0 violations
 - TR-1um LVS: netlists match in strict port mode
 
 The layout was verified with the OpenSUSI TR-1um KLayout DRC/LVS runsets.
+
+## 感想
+
+製造枠が余っていたので東京から富山まで日帰りで参加させていただきました。
